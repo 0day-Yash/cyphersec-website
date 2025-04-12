@@ -12,13 +12,7 @@ export const Drop = defineDocumentType(() => ({
     summary: { type: 'string', required: true },
     downloadUrl: { type: 'string', required: false },
     githubRepo: { type: 'string', required: false },
-    externalLinks: { 
-      type: 'list', 
-      of: { 
-        type: 'string' 
-      },
-      required: false 
-    },
+    externalLinks: { type: 'list', of: { type: 'string' }, required: false },
   },
   computedFields: {
     slug: {

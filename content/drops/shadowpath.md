@@ -27,3 +27,4 @@ ShadowPath is an advanced OSINT tool designed for network mapping and reconnaiss
 
 ```bash
 shadowpath --target example.com --depth 3
+```
